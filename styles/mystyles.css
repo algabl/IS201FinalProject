@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/bg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .nav-link {
+    transition: transform .5s; 
+  }
+  
+  .nav-link:hover {
+    transform: scale(1.5);
+  }
+
+  .inline-img {
+    align-content: center;
+    height: 100px;
+  }
+
+  p {
+    margin: 2px;
+  }
+
+  a {
+    color:#58a4b0;
+  }

@@ -1,0 +1,87 @@
+
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/bg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.common {
+    background-color: white;
+    position: absolute;
+}
+
+.navigation {
+    top:10px;
+    left:5px;
+    right:5px;
+    height:45px;
+}
+
+.tableau {
+    top: 60px;
+    left: 5px;
+    bottom: 45px;
+    right: 5px;
+}
+
+.footer {
+    bottom:10px;
+    height:30px;
+    left: 100px;
+    right: 100px;
+    position:fixed;
+    text-align: center;
+}
+
+.footertext {
+    top: 6px;
+    font-size: 15;
+    position: relative;
+}
+
+.subheader {
+    float:right;
+    padding:15px;
+}
+
+.header {
+    margin: 5px;
+}
+
+.tableaucommon {
+    position:absolute;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.tableaurighttop {
+    left: 50%;
+    right: 10px;
+    top: 5px;
+    bottom: 55%;
+}
+
+.tableaulefttop {
+    right: 50%;
+    left: 10px;
+    top:5px;
+    bottom: 55%;
+}
+
+.tableauleftbottom {
+    top: 50%;
+    right:50%;
+    bottom: 30px;
+    left: 10px;
+}
+
+.tableaurightbottom {
+    left: 50%;
+    right: 10px;
+    top: 50%;
+    bottom: 30px;
+}
